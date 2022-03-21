@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Github Browser</string>
+    <string name="enter_a_gitgub_username">Enter a Gitgub username</string>
+    <string name="username_cannot_be_empty">Username cannot be empty</string>
 </resources>
