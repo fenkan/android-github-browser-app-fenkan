@@ -1,4 +1,4 @@
-package com.example.githubbrowser
+package com.example.githubbrowser.activity
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +9,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.TextView
-import android.widget.Toast
+import com.example.githubbrowser.R
 
 class MainActivity : AppCompatActivity(), TextView.OnEditorActionListener {
 
