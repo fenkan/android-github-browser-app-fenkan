@@ -106,7 +106,7 @@ data class Repository(
     @SerializedName("milestones_url")
     val milestonesUrl: String? = "",
     @SerializedName("mirror_url")
-    val mirrorUrl: Any? = Any(),
+    val mirrorUrl: String? = "",
     @SerializedName("name")
     val name: String? = "",
     @SerializedName("node_id")

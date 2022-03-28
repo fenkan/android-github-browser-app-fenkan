@@ -1,8 +1,11 @@
 package com.example.githubbrowser.model
 
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 data class License(
     @SerializedName("key")
     val key: String? = "",
@@ -14,4 +17,4 @@ data class License(
     val spdxId: String? = "",
     @SerializedName("url")
     val url: String? = ""
-)
+): Parcelable
